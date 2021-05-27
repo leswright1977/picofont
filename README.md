@@ -13,6 +13,7 @@ The code is a pure Python implementation, using a look up table for the chracter
 In src, is an easy to use Python implementation of a 5x7 ASCII font and associated helper functions (scroll to the bottom for usage and I will release a video on YouTube shortly)
 bin-2-hex.xlsm is a handy spreadsheet I made for designing Characters (For vintage computer projects). This is useful if you want to design your own fonts, just click the cells to toggle the pixels, and it spits out binary and hex data :-) Check it out!
 
+
 This program and associated information is Open Source (see Licence), but if this solved  problem and think it is worth something, please consider donating, even a dollar: https://paypal.me/leslaboratory?locale.x=en_GB
 
 
@@ -59,6 +60,14 @@ I tried to be lean with data. Most fonts are 5x7, however some chars have descen
 **Why did you not use a nested list of say binary data?**
 
 Either Thonny or Micropython kept throwing a fit when I tried this initially so a list of strings it is!
+
+**What if I want to use my own characters?**
+
+Take a look at: bin-2-hex.xlsm 
+This is a handy spreadsheet I made for designing Characters (For vintage computer projects).
+Just click the cells to toggle the pixels, and it spits out binary and hex data :-) Check it out!
+
+![Screenshot](media/sheet.png)
 
 
 
