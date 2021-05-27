@@ -11,7 +11,7 @@ The built in font (compiled into the firmware) is not particularly pretty:
 ![Screenshot](media/orig.png)
 
 I wanted something a little more readable and pleasing to the eye for an upcoming project.
-The code is a pure Python implementation, usng a look up table for the chracters, just like the good ol' days of assembly programming!
+The code is a pure Python implementation, using a look up table for the chracter data, just like the good ol' days of assembly programming!
 
 ![Screenshot](media/pico.png)
 
