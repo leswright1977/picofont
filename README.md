@@ -60,7 +60,7 @@ A video will be released on my youTube channel shortly, but for thos who can't w
 
 **Why are some characters data longer than others in cmap?**
 
-I tried to be lean with data. Most fonts are 5x7, however some chars have descenders (or tails?), for exmple lower case 'q' (see the spreadsheet)
+I tried to be lean with data. Most fonts are 5x7, however some chars have descenders (or tails?), for example lower case 'q' (see the spreadsheet)
 
 **Why did you not use a nested list of say binary data?**
 
