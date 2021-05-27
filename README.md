@@ -28,11 +28,14 @@ But if you are not sure:
 Set the pen color: e.g    display.set_pen(255,0,0)
 
 **printstring (printstring takes 4 parameters: String, X, Y, Size(1 (pico sized) or 2 (micro sized)))**
+
 e.g  printstring("Hello World!",0,0,2)
 
 **printchar (As above 4 parameters, char, X, Y, Size)**
+
 princhar displays a single character (useful if you want to change a single value on screen)
-printchar("A",0,0,2)
+
+e.g  printchar("A",0,0,2)
 
 ![Screenshot](media/pico.png)
 
@@ -47,7 +50,10 @@ delchar(0,0,2)
 **note to overwrite a character, you must first delete it!**
 
 
+
+
 **Code questions**
+
 I'm sure if you know how to code you will have questions!
 
 A video will be released on my youTube channel shortly, but for thos who can't wait...
