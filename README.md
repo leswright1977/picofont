@@ -8,6 +8,10 @@ This is a new Font for the Raspberry Pi Pico Display from Pimoroni: https://shop
 This little display is way cool, but the font built into the firmware is not the best (see first image below).
 I wanted something a little more readable and pleasing to the eye for an upcoming project.
 
+![Screenshot](media/orig.png)
+
+Above: The built in font (compiled into the firmware) is not particularly pretty:
+
 The code is a pure Python implementation, using a look up table for the chracter data, just like the good ol' days of assembly programming!
 
 In src, is an easy to use Python implementation of a 5x7 ASCII font and associated helper functions (scroll to the bottom for usage and I will release a video on YouTube shortly)
@@ -15,19 +19,6 @@ bin-2-hex.xlsm is a handy spreadsheet I made for designing Characters (For vinta
 
 
 This program and associated information is Open Source (see Licence), but if this solved  problem and think it is worth something, please consider donating, even a dollar: https://paypal.me/leslaboratory?locale.x=en_GB
-
-
-![Screenshot](media/orig.png)
-
-Above: The built in font (compiled into the firmware) is not particularly pretty:
-
-![Screenshot](media/pico.png)
-
-Above:An image of the size 1 font
-
-![Screenshot](media/mini.png)
-
-Above:An image of the size 2 font
 
 **How to use it**
 
@@ -42,6 +33,14 @@ e.g  printstring("Hello World!",0,0,2)
 **printchar (As above 4 parameters, char, X, Y, Size)**
 princhar displays a single character (useful if you want to change a single value on screen)
 printchar("A",0,0,2)
+
+![Screenshot](media/pico.png)
+
+Above:An image of the size 1 font
+
+![Screenshot](media/mini.png)
+
+Above:An image of the size 2 font
 
 **delchar (takes 3 parameters, X, Y and size)**
 delchar(0,0,2)
@@ -67,7 +66,18 @@ Take a look at: bin-2-hex.xlsm
 This is a handy spreadsheet I made for designing Characters (For vintage computer projects).
 Just click the cells to toggle the pixels, and it spits out binary and hex data :-) Check it out!
 
-![Screenshot](media/sheet.png)
+![Screenshot](media/sheet1.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
