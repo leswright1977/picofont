@@ -14,7 +14,7 @@ Above: The built in font (compiled into the firmware) is not particularly pretty
 
 The code is a pure Python implementation, using a look up table for the chracter data, just like the good ol' days of assembly programming!
 
-In src, is an easy to use Python implementation of a 5x7 ASCII font and associated helper functions (scroll to the bottom for usage and I will release a video on YouTube shortly)
+In src, is an easy to use Python implementation of a 5x7 ASCII font and associated helper functions (scroll to the bottom for usage or watch the video here: https://youtu.be/BMlGyAYNdF8)
 bin-2-hex.xlsm is a handy spreadsheet I made for designing Characters (For vintage computer projects). This is useful if you want to design your own fonts, just click the cells to toggle the pixels, and it spits out binary and hex data :-) Check it out!
 
 
