@@ -18,7 +18,7 @@ In src, is an easy to use Python implementation of a 5x7 ASCII font and associat
 bin-2-hex.xlsm is a handy spreadsheet I made for designing Characters (For vintage computer projects). This is useful if you want to design your own fonts, just click the cells to toggle the pixels, and it spits out binary and hex data :-) Check it out!
 
 
-This program and associated information is Open Source (see Licence), but if this solved  problem and think it is worth something, please consider donating, even a dollar: https://paypal.me/leslaboratory?locale.x=en_GB
+This program and associated information is Open Source (see Licence), but if this solved a problem and you think it is worth something, please consider donating, even a dollar: https://paypal.me/leslaboratory?locale.x=en_GB
 
 **How to use it**
 
