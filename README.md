@@ -1,6 +1,8 @@
 # picofont
 Fonts for the Raspberry Pico Display
 
+**Update V1.1 Released for faster update! Scroll to the end!**
+
 **What is it?**
 
 This is a new Font for the Raspberry Pi Pico Display from Pimoroni: https://shop.pimoroni.com/products/pico-display-pack
@@ -74,6 +76,34 @@ Just click the cells to toggle the pixels, and it spits out binary and hex data 
 
 ![Screenshot](media/sheet1.png)
 
+
+
+V 1.1
+
+Refactored for speed suggested by Steve Borg:
+https://forums.pimoroni.com/t/pico-display-and-fonts/16194/18
+
+"Refactor it slightly so that the various functions take an optional parameter to tell it
+whether to do a display.update() you can get it so it draws much more quickly.
+That way those that like the teleprompter type output can leave it to update after each character
+and those that don’t could update after each string."
+
+printchar naw has the extra parameter: charupdate (Boolean (True/False)
+printchar(letter,xpos,ypos,size,charupdate)
+delchar has the same
+delchar(xpos,ypos,size,delupdate)
+These sell the functions whether or not to do a display.update() on every char (slow)
+
+Printstring has two extra args charupdate and strupdate (Boolean (True/False)
+printstring(string,xpos,ypos,size,charupdate,strupdate) 
+
+These say whether to call display.update() on individual chars (slow) or on the entire string (fast)
+You can set them both to false if you want, send multiple lines, then do a display.upadte() manually if you like
+(see example code below)
+
+Have fun!
+
+Les
 
 
 
