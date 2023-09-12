@@ -92,7 +92,7 @@ printchar naw has the extra parameter: charupdate (Boolean (True/False)
 printchar(letter,xpos,ypos,size,charupdate)
 delchar has the same
 delchar(xpos,ypos,size,delupdate)
-These sell the functions whether or not to do a display.update() on every char (slow)
+These tell the functions whether or not to do a display.update() on every char (slow)
 
 Printstring has two extra args charupdate and strupdate (Boolean (True/False)
 printstring(string,xpos,ypos,size,charupdate,strupdate) 
